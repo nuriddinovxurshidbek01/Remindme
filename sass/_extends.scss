@@ -1,0 +1,19 @@
+// -------------------Display Flex-------------------//
+%displayFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+// ---------------------List-------------------//
+%list {
+    list-style-type: none;
+    @extend %displayFlex;
+    // ---------------------Link-------------------//
+}
+
+%link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
