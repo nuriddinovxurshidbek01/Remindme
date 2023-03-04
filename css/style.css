@@ -377,17 +377,17 @@ img {
   flex-grow: 1;
 }
 
-.header__inner_logo, .header__inner, .header__inner_logo----navbar---list {
+.header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__inner_logo----navbar---list {
+.features__inner_list, .header__inner_logo----navbar---list {
   list-style-type: none;
 }
 
-.header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
+.hero__inner_info--link, .header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
   text-decoration: none;
   cursor: pointer;
 }
@@ -414,7 +414,7 @@ img {
 
 .header {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .header__inner_logo {
   width: 50%;
@@ -455,21 +455,102 @@ img {
   background-color: #2D76F9;
 }
 
+.hero {
+  width: 100%;
+  margin-top: 100px;
+}
+.hero__inner {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero__inner_info {
+  width: 533px;
+}
+.hero__inner_info--title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 85px;
+}
+.hero__inner_info--text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+.hero__inner_info--link {
+  margin-top: 50px;
+  display: block;
+  width: 250px;
+  background-color: #2D76F9;
+  padding: 24px 0;
+  text-align: center;
+  border-radius: 150px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.hero__inner_imag-main {
+  width: 750px;
+  height: 830px;
+}
+.hero__inner::after {
+  position: absolute;
+  top: -150px;
+  right: -180px;
+  z-index: -5;
+  content: "";
+  display: block;
+  width: 750px;
+  height: 830px;
+  background-image: url(../../images/Hero\ Image.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.features {
+  width: 100%;
+  margin-top: 270px;
+}
+.features__inner_list---itam {
+  width: 387px;
+}
+.features__inner_list---itam--img {
+  padding: 15px;
+  background-color: #EEF4FF;
+  border-radius: 50%;
+}
+.features__inner_list---itam--box-title {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.features__inner_list---itam--box-text {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
 .footer {
   width: 100%;
 }
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list {
+.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header__inner_logo----navbar---list {
+.header__inner_logo----navbar---list, .features__inner_list {
   list-style-type: none;
 }
 
-.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link {
+.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link, .hero__inner_info--link {
   text-decoration: none;
   cursor: pointer;
 }

@@ -1,0 +1,32 @@
+.features {
+    width: 100%;
+    margin-top: 270px;
+    &__inner {
+        &_list {
+            @extend %list;
+            &---itam {
+                width: 387px;
+                &--img {
+                    padding: 15px;
+                    background-color: #EEF4FF;
+                    border-radius: 50%;
+                }
+                &--box {
+                    &-title {
+                        margin-top: 40px;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                    &-text {
+                        margin-top: 30px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 36px;
+                        color: #747474;
+                    }
+                }
+            }
+        }
+    }
+}
