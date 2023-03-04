@@ -1,0 +1,29 @@
+.adventage {
+    width: 100%;
+    margin-top: 110px;
+    &__inner {
+        @extend %displayFlex;
+        position: relative;
+        &_img {
+            position: relative;
+            top: 150px;
+            left: -100px;
+        }
+        &_info {
+            width: 493px;
+            margin-top: 250px;
+            &--title {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 65px;
+            }
+            &--text {
+                margin-top: 50px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 36px;
+                color: #747474;
+            }
+        }
+    }
+}

@@ -377,7 +377,7 @@ img {
   flex-grow: 1;
 }
 
-.header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
+.adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -536,11 +536,40 @@ img {
   color: #747474;
 }
 
+.adventage {
+  width: 100%;
+  margin-top: 110px;
+}
+.adventage__inner {
+  position: relative;
+}
+.adventage__inner_img {
+  position: relative;
+  top: 150px;
+  left: -100px;
+}
+.adventage__inner_info {
+  width: 493px;
+  margin-top: 250px;
+}
+.adventage__inner_info--title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+}
+.adventage__inner_info--text {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
 .footer {
   width: 100%;
 }
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list {
+.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
