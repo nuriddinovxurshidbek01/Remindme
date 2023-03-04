@@ -3,40 +3,10 @@
 @import "./fonts";
 @import "./general";
 @import "./mixin";
+@import "./extends";
 @import "./blocks/all";
 @import "./extends";
-%card {
-    max-width: 300px;
-    max-height: 230px;
-    box-shadow: 0 0 10px rgba(0, 0, 0.5);
-    border-radius: 4px;
-    margin: 10px 50px;
-    border: 1px solid #fff0f000;
-}
-
-.wrapper_list {
-    @extend %list
-}
-
-.wrapper {
-    @extend %displayFlex;
-}
-
-.links {
-    width: 100%;
-    height: 8%;
-    overflow-x: hidden;
-    @extend %displayFlex;
-}
-
-.link {
-    @extend %link;
-}
-
-.card {
-    @extend %card;
-}
-
-.box {
-    @extend %card;
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
 }
