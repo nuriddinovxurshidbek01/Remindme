@@ -377,7 +377,7 @@ img {
   flex-grow: 1;
 }
 
-.adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
+.aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -565,11 +565,38 @@ img {
   color: #747474;
 }
 
+.aplication {
+  width: 100%;
+  margin-top: 250px;
+}
+.aplication__inner {
+  position: relative;
+}
+.aplication__inner_info {
+  width: 493px;
+}
+.aplication__inner_info--title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+}
+.aplication__inner_info--text {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+.aplication__inner_img {
+  position: relative;
+  right: -100px;
+}
+
 .footer {
   width: 100%;
 }
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner {
+.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
