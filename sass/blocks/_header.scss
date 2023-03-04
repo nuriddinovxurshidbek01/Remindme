@@ -2,7 +2,9 @@
     width: 100%;
     margin-top: 15px;
     &__inner {
-        @extend %displayFlex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         &_logo {
             width: 50%;
             @extend %displayFlex;
@@ -54,25 +56,27 @@
     }
 }
 
-@media only screen and(width:375px) {
+@media only screen and (max-width:992px) {
     .header {
         width: 100%;
         margin-top: 10px;
         &__inner {
-            flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             &_logo {
                 width: 50%;
-                @extend %displayFlex;
                 &----navbar {
                     &---list {
-                        display: none;
-                        @extend %list;
-                        width: 370px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 300px;
                         &--item {
                             &-link {
-                                @extend %link;
+                                text-decoration: none;
                                 font-weight: 600;
-                                font-size: 17px;
+                                font-size: 15px;
                                 line-height: 27px;
                                 color: black;
                             }
@@ -85,18 +89,18 @@
             }
             &_aboutApp {
                 &--link {
-                    @extend %link;
+                    text-decoration: none;
                     color: #2D76F9;
                     font-weight: 400;
                     font-size: 18px;
                     line-height: 27px;
                     border: 2px solid #2D76F9;
-                    padding: 10px 35px;
+                    padding: 10px 25px;
                     border-radius: 30px;
                 }
             }
             &_meno {
-                display: block;
+                display: none;
                 width: 45px;
                 height: 45px;
                 border: 2px solid #2D76F9;
@@ -104,6 +108,109 @@
                 &-span {
                     margin: 8px auto;
                     width: 30px;
+                    height: 3px;
+                    display: block;
+                    background-color: #2D76F9;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        width: 100%;
+        margin-top: 10px;
+        &__inner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            &_logo {
+                width: 50%;
+                &----navbar {
+                    &---list {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 220px;
+                        &--item {
+                            &-link {
+                                text-decoration: none;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 27px;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+            &_aboutApp {
+                &--link {
+                    text-decoration: none;
+                    color: #2D76F9;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 27px;
+                    border: 2px solid #2D76F9;
+                    padding: 6px 20px;
+                    border-radius: 30px;
+                }
+            }
+            &_meno {
+                display: none;
+                width: 45px;
+                height: 45px;
+                border: 2px solid #2D76F9;
+                border-radius: 5px;
+                &-span {
+                    margin: 8px auto;
+                    width: 30px;
+                    height: 3px;
+                    display: block;
+                    background-color: #2D76F9;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .header {
+        width: 100%;
+        margin-top: 10px;
+        &__inner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            &_logo {
+                width: 50%;
+                &----navbar {
+                    display: none;
+                }
+            }
+            &_aboutApp {
+                &--link {
+                    display: none;
+                    text-decoration: none;
+                    color: #2D76F9;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 27px;
+                    border: 2px solid #2D76F9;
+                    padding: 6px 20px;
+                    border-radius: 30px;
+                }
+            }
+            &_meno {
+                display: block;
+                width: 35px;
+                height: 37px;
+                border: 2px solid #2D76F9;
+                border-radius: 5px;
+                &-span {
+                    margin: 6px auto;
+                    width: 25px;
                     height: 3px;
                     display: block;
                     background-color: #2D76F9;

@@ -377,7 +377,7 @@ img {
   flex-grow: 1;
 }
 
-.footer__inner_follow-box, .testimonial__inner_info--broun, .testimonial__inner, .various__inner_links, .aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
+.footer__inner_follow-box, .testimonial__inner_info--broun, .testimonial__inner, .various__inner_links, .aplication__inner, .adventage__inner, .header__inner_logo, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -415,6 +415,11 @@ img {
 .header {
   width: 100%;
   margin-top: 15px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__inner_logo {
   width: 50%;
@@ -455,6 +460,153 @@ img {
   background-color: #2D76F9;
 }
 
+@media only screen and (max-width: 992px) {
+  .header {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header__inner_logo {
+    width: 50%;
+  }
+  .header__inner_logo----navbar---list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+  }
+  .header__inner_logo----navbar---list--item-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: black;
+  }
+  .header__inner_logo----navbar---list--item-link:hover {
+    color: #2D76F9;
+  }
+  .header__inner_aboutApp--link {
+    text-decoration: none;
+    color: #2D76F9;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    border: 2px solid #2D76F9;
+    padding: 10px 25px;
+    border-radius: 30px;
+  }
+  .header__inner_meno {
+    display: none;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #2D76F9;
+    border-radius: 5px;
+  }
+  .header__inner_meno-span {
+    margin: 8px auto;
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #2D76F9;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header__inner_logo {
+    width: 50%;
+  }
+  .header__inner_logo----navbar---list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+  }
+  .header__inner_logo----navbar---list--item-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: black;
+  }
+  .header__inner_aboutApp--link {
+    text-decoration: none;
+    color: #2D76F9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    border: 2px solid #2D76F9;
+    padding: 6px 20px;
+    border-radius: 30px;
+  }
+  .header__inner_meno {
+    display: none;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #2D76F9;
+    border-radius: 5px;
+  }
+  .header__inner_meno-span {
+    margin: 8px auto;
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: #2D76F9;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header__inner_logo {
+    width: 50%;
+  }
+  .header__inner_logo----navbar {
+    display: none;
+  }
+  .header__inner_aboutApp--link {
+    display: none;
+    text-decoration: none;
+    color: #2D76F9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    border: 2px solid #2D76F9;
+    padding: 6px 20px;
+    border-radius: 30px;
+  }
+  .header__inner_meno {
+    display: block;
+    width: 35px;
+    height: 37px;
+    border: 2px solid #2D76F9;
+    border-radius: 5px;
+  }
+  .header__inner_meno-span {
+    margin: 6px auto;
+    width: 25px;
+    height: 3px;
+    display: block;
+    background-color: #2D76F9;
+  }
+}
 .hero {
   width: 100%;
   margin-top: 100px;
@@ -738,7 +890,7 @@ img {
   margin-top: 58px;
 }
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner, .various__inner_links, .testimonial__inner, .testimonial__inner_info--broun, .footer__inner_follow-box {
+.header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner, .various__inner_links, .testimonial__inner, .testimonial__inner_info--broun, .footer__inner_follow-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
