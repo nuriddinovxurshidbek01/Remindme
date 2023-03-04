@@ -377,7 +377,7 @@ img {
   flex-grow: 1;
 }
 
-.aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
+.various__inner_links, .aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -387,7 +387,7 @@ img {
   list-style-type: none;
 }
 
-.hero__inner_info--link, .header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
+.various__inner_links--link, .hero__inner_info--link, .header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
   text-decoration: none;
   cursor: pointer;
 }
@@ -592,11 +592,52 @@ img {
   right: -100px;
 }
 
+.various {
+  width: 100%;
+  margin: 150px auto;
+}
+.various__inner {
+  width: 100%;
+  background-image: url(../../images/halqa.png);
+  background-color: #2170FF;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
+.various__inner_info {
+  max-width: 750px;
+  padding: 100px 0 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.various__inner_links {
+  margin-top: 90px;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.various__inner_links--link {
+  margin-top: 90px;
+  padding: 24px 53px;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.various__inner_links--link:hover {
+  background-color: white;
+  color: #2170FF;
+}
+
 .footer {
   width: 100%;
 }
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner {
+.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner, .various__inner_links {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -606,7 +647,7 @@ img {
   list-style-type: none;
 }
 
-.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link, .hero__inner_info--link {
+.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link, .hero__inner_info--link, .various__inner_links--link {
   text-decoration: none;
   cursor: pointer;
 }
