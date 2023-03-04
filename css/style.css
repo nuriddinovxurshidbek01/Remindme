@@ -377,7 +377,7 @@ img {
   flex-grow: 1;
 }
 
-.various__inner_links, .aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
+.footer__inner_follow-box, .testimonial__inner_info--broun, .testimonial__inner, .various__inner_links, .aplication__inner, .adventage__inner, .header__inner_logo, .header__inner, .features__inner_list, .header__inner_logo----navbar---list {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -387,7 +387,7 @@ img {
   list-style-type: none;
 }
 
-.various__inner_links--link, .hero__inner_info--link, .header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
+.footer__inner_advent---list--item-link, .footer__inner_sistem---list--item-link, .various__inner_links--link, .hero__inner_info--link, .header__inner_aboutApp--link, .header__inner_logo----navbar---list--item-link {
   text-decoration: none;
   cursor: pointer;
 }
@@ -633,11 +633,112 @@ img {
   color: #2170FF;
 }
 
-.footer {
+.testimonial {
   width: 100%;
 }
+.testimonial__inner {
+  position: relative;
+}
+.testimonial__inner_img {
+  position: relative;
+  width: 700px;
+  padding: 40px;
+  left: -100px;
+  background-color: #EEF4FF;
+  border-radius: 0 100px 100px 0;
+}
+.testimonial__inner_info {
+  width: 493px;
+}
+.testimonial__inner_info--title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+}
+.testimonial__inner_info---spam {
+  margin: 51px 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial__inner_info---spam--box-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.testimonial__inner_info---spam--box-text {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #747474;
+}
+.testimonial__inner_info--text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.testimonial__inner_info--broun {
+  margin-top: 58px;
+  width: 100px;
+}
 
-.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner, .various__inner_links {
+.footer {
+  width: 100%;
+  margin-top: 150px;
+}
+.footer__inner {
+  padding: 50px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer__inner_logo {
+  margin-top: -45px;
+  width: 387px;
+}
+.footer__inner_logo--text {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+.footer__inner_sistem--title {
+  color: #000000;
+}
+.footer__inner_sistem---list {
+  margin-top: 58px;
+  list-style-type: none;
+}
+.footer__inner_sistem---list--item-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+.footer__inner_advent--title {
+  color: #000000;
+}
+.footer__inner_advent---list {
+  margin-top: 58px;
+  list-style-type: none;
+}
+.footer__inner_advent---list--item-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+.footer__inner_follow--title {
+  color: black;
+}
+.footer__inner_follow-box {
+  width: 150px;
+  margin-top: 58px;
+}
+
+.header__inner, .header__inner_logo, .header__inner_logo----navbar---list, .features__inner_list, .adventage__inner, .aplication__inner, .various__inner_links, .testimonial__inner, .testimonial__inner_info--broun, .footer__inner_follow-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -647,7 +748,7 @@ img {
   list-style-type: none;
 }
 
-.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link, .hero__inner_info--link, .various__inner_links--link {
+.header__inner_logo----navbar---list--item-link, .header__inner_aboutApp--link, .hero__inner_info--link, .various__inner_links--link, .footer__inner_sistem---list--item-link, .footer__inner_advent---list--item-link {
   text-decoration: none;
   cursor: pointer;
 }

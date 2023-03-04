@@ -1,3 +1,65 @@
 .footer {
     width: 100%;
+    margin-top: 150px;
+    &__inner {
+        padding: 50px 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        &_logo {
+            margin-top: -45px;
+            width: 387px;
+            &--text {
+                margin-top: 30px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 36px;
+                color: #747474;
+            }
+        }
+        &_sistem {
+            &--title {
+                color: #000000;
+            }
+            &---list {
+                margin-top: 58px;
+                list-style-type: none;
+                &--item {
+                    &-link {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 36px;
+                        @extend %link;
+                    }
+                }
+            }
+        }
+        &_advent {
+            &--title {
+                color: #000000;
+            }
+            &---list {
+                margin-top: 58px;
+                list-style-type: none;
+                &--item {
+                    &-link {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 36px;
+                        @extend %link;
+                    }
+                }
+            }
+        }
+        &_follow {
+            &--title {
+                color: black;
+            }
+            &-box {
+                width: 150px;
+                margin-top: 58px;
+                @extend %displayFlex;
+            }
+        }
+    }
 }
