@@ -414,7 +414,11 @@ img {
 
 .header {
   width: 100%;
-  margin-top: 15px;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  z-index: 99;
+  padding-top: 20px;
 }
 .header__inner {
   display: flex;
@@ -635,7 +639,6 @@ img {
   position: absolute;
   top: -150px;
   right: -180px;
-  z-index: -5;
   content: "";
   display: block;
   width: 750px;
