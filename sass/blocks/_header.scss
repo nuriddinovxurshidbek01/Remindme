@@ -62,10 +62,10 @@
         margin-top: 10px;
         &__inner {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             &_logo {
-                width: 50%;
+                width: 65%;
                 &----navbar {
                     &---list {
                         display: flex;
@@ -89,6 +89,7 @@
             }
             &_aboutApp {
                 &--link {
+                    // display: none;
                     text-decoration: none;
                     color: #2D76F9;
                     font-weight: 400;
@@ -126,7 +127,7 @@
             justify-content: space-around;
             align-items: center;
             &_logo {
-                width: 50%;
+                width: 100%;
                 &----navbar {
                     &---list {
                         display: flex;
@@ -147,29 +148,11 @@
             }
             &_aboutApp {
                 &--link {
-                    text-decoration: none;
-                    color: #2D76F9;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 27px;
-                    border: 2px solid #2D76F9;
-                    padding: 6px 20px;
-                    border-radius: 30px;
+                    display: none;
                 }
             }
             &_meno {
                 display: none;
-                width: 45px;
-                height: 45px;
-                border: 2px solid #2D76F9;
-                border-radius: 5px;
-                &-span {
-                    margin: 8px auto;
-                    width: 30px;
-                    height: 3px;
-                    display: block;
-                    background-color: #2D76F9;
-                }
             }
         }
     }
@@ -180,8 +163,9 @@
         width: 100%;
         margin-top: 10px;
         &__inner {
+            padding: 0 10px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             &_logo {
                 width: 50%;
