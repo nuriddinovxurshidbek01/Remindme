@@ -861,8 +861,8 @@ img {
 }
 .features__inner_list---itam--img {
   padding: 15px;
-  background-color: #EEF4FF;
   border-radius: 50%;
+  background-color: #EEF4FF;
 }
 .features__inner_list---itam--box-title {
   margin-top: 40px;
@@ -1008,6 +1008,8 @@ img {
   position: relative;
   top: 150px;
   left: -100px;
+  background-color: #EEF4FF;
+  border-radius: 0 100px 100px 0;
 }
 .adventage__inner_info {
   width: 493px;
@@ -1196,6 +1198,8 @@ img {
 .aplication__inner_img {
   position: relative;
   right: -100px;
+  background-color: #EEF4FF;
+  border-radius: 100px 0 0 100px;
 }
 
 @media only screen and (max-width: 992px) {
