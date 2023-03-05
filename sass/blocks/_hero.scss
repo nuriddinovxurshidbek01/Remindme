@@ -141,8 +141,9 @@
             }
             &_imag {
                 &-main {
-                    width: 700px;
+                    width: 1000px;
                     height: 750px;
+                    display: block;
                 }
             }
         }
@@ -150,11 +151,14 @@
             position: relative;
             margin: 300px auto 0;
             content: "";
-            left: 50px;
+            left: -140px;
             display: block;
-            width: 100%;
-            height: 800px;
+            width: 1000px;
+            height: 1100px;
             border-radius: 100px 100px;
+            background-image: url(../../images/Hero\ Image.svg);
+            background-size: 1000px;
+            background-repeat: no-repeat;
         }
     }
 }
@@ -199,12 +203,15 @@
         &__inner::after {
             position: relative;
             margin: 300px auto 50px;
-            left: -45px;
+            left: -55px;
             content: "";
             display: block;
             width: 500px;
             height: 700px;
             border-radius: 50px;
+            background-image: url(../../images/Hero\ Image.svg);
+            background-size: 500px 700px;
+            background-repeat: no-repeat;
         }
     }
 }
@@ -233,6 +240,9 @@
             width: 450px;
             height: 700px;
             border-radius: 50px;
+            background-image: url(../../images/Hero\ Image.svg);
+            background-size: 450px 700px;
+            background-repeat: no-repea
         }
     }
 }
@@ -261,6 +271,9 @@
             width: 400px;
             height: 700px;
             border-radius: 50px;
+            background-image: url(../../images/Hero\ Image.svg);
+            background-size: 400px 700px;
+            background-repeat: no-repea
         }
     }
 }
